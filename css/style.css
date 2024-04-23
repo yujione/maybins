@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrap {
+  width: 1500px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  /* border: 1px solid #000; */
+}
+
+h1 {
+  font-size: 0;
+  text-indent: -9999px;
+}
+header > .container {
+  display: flex;
+
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+header > .container > .menu {
+}
+header > .container > .writeBox {
+  padding-top: 9px;
+}
+header > .container > .writeBox > p {
+  position: relative;
+}
+header > .container > .writeBox > p > span:nth-child(1) {
+  position: absolute;
+  right: 1100px;
+}
+header > .container > .writeBox > p > input {
+  position: absolute;
+  right: 945px;
+  border: none;
+}
+header > .container > .writeBox > p > span:nth-child(3) {
+  position: absolute;
+  right: 150px;
+}
+header > .container > .writeBox > p > span:nth-child(4) {
+  position: absolute;
+  right: 120px;
+}
